@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav .cart {
+    font-size: 16px;
+}
+
+.hero {
+    display: flex;
+    padding: 20px;
+    background-color: #a15b25;
+    color: white;
+}
+
+.hero-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.shop-now {
+    background-color: #fff;
+    color: #a15b25;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.best-selling {
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product-name {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 14px;
+    color: #a15b25;
+    margin: 10px 0;
+}
+
+.add-to-cart {
+    background-color: #a15b25;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #a15b25;
+    color: white;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
